@@ -1,0 +1,2527 @@
+{
+  "classEntries": {
+    "AbstractConditionalOperator": {
+      "sourceLocations": [
+        "getQuestionLoc",
+        "getColonLoc"
+      ]
+    },
+    "AccessSpecDecl": {
+      "sourceLocations": [
+        "getAccessSpecifierLoc",
+        "getColonLoc"
+      ]
+    },
+    "AddrLabelExpr": {
+      "sourceLocations": [
+        "getAmpAmpLoc",
+        "getLabelLoc"
+      ]
+    },
+    "AdjustedTypeLoc": {
+      "typeLocs": [
+        "getOriginalLoc"
+      ]
+    },
+    "ArrayInitIndexExpr": {},
+    "ArrayInitLoopExpr": {},
+    "ArraySubscriptExpr": {
+      "sourceLocations": [
+        "getRBracketLoc"
+      ]
+    },
+    "ArrayTypeLoc": {
+      "sourceLocations": [
+        "getLBracketLoc",
+        "getRBracketLoc"
+      ],
+      "sourceRanges": [
+        "getBracketsRange"
+      ],
+      "typeLocs": [
+        "getElementLoc"
+      ]
+    },
+    "ArrayTypeTraitExpr": {
+      "typeSourceInfos": [
+        "getQueriedTypeSourceInfo"
+      ]
+    },
+    "AsTypeExpr": {
+      "sourceLocations": [
+        "getBuiltinLoc",
+        "getRParenLoc"
+      ]
+    },
+    "AsmStmt": {
+      "sourceLocations": [
+        "getAsmLoc"
+      ]
+    },
+    "AtomicExpr": {
+      "sourceLocations": [
+        "getBuiltinLoc",
+        "getRParenLoc"
+      ]
+    },
+    "AtomicTypeLoc": {
+      "sourceLocations": [
+        "getKWLoc",
+        "getLParenLoc",
+        "getRParenLoc"
+      ],
+      "sourceRanges": [
+        "getParensRange"
+      ],
+      "typeLocs": [
+        "getValueLoc"
+      ]
+    },
+    "AttributedStmt": {
+      "sourceLocations": [
+        "getAttrLoc"
+      ]
+    },
+    "AttributedTypeLoc": {
+      "typeLocs": [
+        "getModifiedLoc"
+      ]
+    },
+    "AutoTypeLoc": {
+      "declNameInfos": [
+        "getConceptNameInfo"
+      ],
+      "sourceLocations": [
+        "getRParenLoc",
+        "getTemplateKWLoc",
+        "getConceptNameLoc",
+        "getLAngleLoc",
+        "getRAngleLoc"
+      ]
+    },
+    "BaseUsingDecl": {},
+    "BinaryConditionalOperator": {},
+    "BinaryOperator": {
+      "sourceLocations": [
+        "getOperatorLoc"
+      ]
+    },
+    "BindingDecl": {},
+    "BitIntTypeLoc": {},
+    "BlockDecl": {
+      "sourceLocations": [
+        "getCaretLocation"
+      ],
+      "typeSourceInfos": [
+        "getSignatureAsWritten"
+      ]
+    },
+    "BlockExpr": {
+      "sourceLocations": [
+        "getCaretLocation"
+      ]
+    },
+    "BlockPointerTypeLoc": {
+      "sourceLocations": [
+        "getCaretLoc"
+      ]
+    },
+    "BreakStmt": {
+      "sourceLocations": [
+        "getBreakLoc"
+      ]
+    },
+    "BuiltinBitCastExpr": {},
+    "BuiltinTemplateDecl": {},
+    "BuiltinTypeLoc": {
+      "sourceLocations": [
+        "getBuiltinLoc",
+        "getNameLoc"
+      ]
+    },
+    "CStyleCastExpr": {
+      "sourceLocations": [
+        "getLParenLoc",
+        "getRParenLoc"
+      ]
+    },
+    "CUDAKernelCallExpr": {},
+    "CXXAddrspaceCastExpr": {},
+    "CXXBaseSpecifier": {
+      "sourceLocations": [
+        "getBeginLoc",
+        "getEndLoc",
+        "getBaseTypeLoc",
+        "getEllipsisLoc"
+      ],
+      "sourceRanges": [
+        "getSourceRange"
+      ],
+      "typeSourceInfos": [
+        "getTypeSourceInfo"
+      ]
+    },
+    "CXXBindTemporaryExpr": {},
+    "CXXBoolLiteralExpr": {
+      "sourceLocations": [
+        "getLocation"
+      ]
+    },
+    "CXXCatchStmt": {
+      "sourceLocations": [
+        "getCatchLoc"
+      ]
+    },
+    "CXXConstCastExpr": {},
+    "CXXConstructExpr": {
+      "sourceLocations": [
+        "getLocation"
+      ],
+      "sourceRanges": [
+        "getParenOrBraceRange"
+      ]
+    },
+    "CXXConstructorDecl": {},
+    "CXXConversionDecl": {},
+    "CXXCtorInitializer": {
+      "sourceLocations": [
+        "getEllipsisLoc",
+        "getMemberLocation",
+        "getSourceLocation",
+        "getLParenLoc",
+        "getRParenLoc"
+      ],
+      "sourceRanges": [
+        "getSourceRange"
+      ],
+      "typeLocs": [
+        "getBaseClassLoc"
+      ],
+      "typeSourceInfos": [
+        "getTypeSourceInfo"
+      ]
+    },
+    "CXXDeductionGuideDecl": {},
+    "CXXDefaultArgExpr": {
+      "sourceLocations": [
+        "getUsedLocation"
+      ]
+    },
+    "CXXDefaultInitExpr": {
+      "sourceLocations": [
+        "getUsedLocation"
+      ]
+    },
+    "CXXDeleteExpr": {},
+    "CXXDependentScopeMemberExpr": {
+      "declNameInfos": [
+        "getMemberNameInfo"
+      ],
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getOperatorLoc",
+        "getMemberLoc",
+        "getTemplateKeywordLoc",
+        "getLAngleLoc",
+        "getRAngleLoc"
+      ]
+    },
+    "CXXDestructorDecl": {},
+    "CXXDynamicCastExpr": {},
+    "CXXFoldExpr": {
+      "sourceLocations": [
+        "getLParenLoc",
+        "getRParenLoc",
+        "getEllipsisLoc"
+      ]
+    },
+    "CXXForRangeStmt": {
+      "sourceLocations": [
+        "getForLoc",
+        "getCoawaitLoc",
+        "getColonLoc",
+        "getRParenLoc"
+      ]
+    },
+    "CXXFunctionalCastExpr": {
+      "sourceLocations": [
+        "getLParenLoc",
+        "getRParenLoc"
+      ]
+    },
+    "CXXInheritedCtorInitExpr": {
+      "sourceLocations": [
+        "getLocation"
+      ]
+    },
+    "CXXMemberCallExpr": {},
+    "CXXMethodDecl": {},
+    "CXXNamedCastExpr": {
+      "sourceLocations": [
+        "getOperatorLoc",
+        "getRParenLoc"
+      ],
+      "sourceRanges": [
+        "getAngleBrackets"
+      ]
+    },
+    "CXXNewExpr": {
+      "sourceRanges": [
+        "getTypeIdParens",
+        "getDirectInitRange"
+      ],
+      "typeSourceInfos": [
+        "getAllocatedTypeSourceInfo"
+      ]
+    },
+    "CXXNoexceptExpr": {},
+    "CXXNullPtrLiteralExpr": {
+      "sourceLocations": [
+        "getLocation"
+      ]
+    },
+    "CXXOperatorCallExpr": {
+      "sourceLocations": [
+        "getOperatorLoc"
+      ]
+    },
+    "CXXPseudoDestructorExpr": {
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getOperatorLoc",
+        "getColonColonLoc",
+        "getTildeLoc",
+        "getDestroyedTypeLoc"
+      ],
+      "typeSourceInfos": [
+        "getScopeTypeInfo",
+        "getDestroyedTypeInfo"
+      ]
+    },
+    "CXXRecordDecl": {
+      "typeSourceInfos": [
+        "getLambdaTypeInfo"
+      ]
+    },
+    "CXXReinterpretCastExpr": {},
+    "CXXRewrittenBinaryOperator": {
+      "sourceLocations": [
+        "getOperatorLoc"
+      ]
+    },
+    "CXXScalarValueInitExpr": {
+      "sourceLocations": [
+        "getRParenLoc"
+      ],
+      "typeSourceInfos": [
+        "getTypeSourceInfo"
+      ]
+    },
+    "CXXStaticCastExpr": {},
+    "CXXStdInitializerListExpr": {},
+    "CXXTemporaryObjectExpr": {
+      "typeSourceInfos": [
+        "getTypeSourceInfo"
+      ]
+    },
+    "CXXThisExpr": {
+      "sourceLocations": [
+        "getLocation"
+      ]
+    },
+    "CXXThrowExpr": {
+      "sourceLocations": [
+        "getThrowLoc"
+      ]
+    },
+    "CXXTryStmt": {
+      "sourceLocations": [
+        "getTryLoc"
+      ]
+    },
+    "CXXTypeidExpr": {
+      "typeSourceInfos": [
+        "getTypeOperandSourceInfo"
+      ]
+    },
+    "CXXUnresolvedConstructExpr": {
+      "sourceLocations": [
+        "getLParenLoc",
+        "getRParenLoc"
+      ],
+      "typeSourceInfos": [
+        "getTypeSourceInfo"
+      ]
+    },
+    "CXXUuidofExpr": {
+      "typeSourceInfos": [
+        "getTypeOperandSourceInfo"
+      ]
+    },
+    "CallExpr": {
+      "sourceLocations": [
+        "getRParenLoc"
+      ]
+    },
+    "CapturedDecl": {},
+    "CapturedStmt": {},
+    "CaseStmt": {
+      "sourceLocations": [
+        "getCaseLoc",
+        "getEllipsisLoc"
+      ]
+    },
+    "CastExpr": {},
+    "CharacterLiteral": {
+      "sourceLocations": [
+        "getLocation"
+      ]
+    },
+    "ChooseExpr": {
+      "sourceLocations": [
+        "getBuiltinLoc",
+        "getRParenLoc"
+      ]
+    },
+    "ClassScopeFunctionSpecializationDecl": {},
+    "ClassTemplateDecl": {},
+    "ClassTemplatePartialSpecializationDecl": {},
+    "ClassTemplateSpecializationDecl": {
+      "sourceLocations": [
+        "getPointOfInstantiation",
+        "getExternLoc",
+        "getTemplateKeywordLoc"
+      ],
+      "typeSourceInfos": [
+        "getTypeAsWritten"
+      ]
+    },
+    "CoawaitExpr": {},
+    "ComplexTypeLoc": {},
+    "CompoundAssignOperator": {},
+    "CompoundLiteralExpr": {
+      "sourceLocations": [
+        "getLParenLoc"
+      ],
+      "typeSourceInfos": [
+        "getTypeSourceInfo"
+      ]
+    },
+    "CompoundStmt": {
+      "sourceLocations": [
+        "getLBracLoc",
+        "getRBracLoc"
+      ]
+    },
+    "ConceptDecl": {},
+    "ConceptSpecializationExpr": {},
+    "ConditionalOperator": {},
+    "ConstantArrayTypeLoc": {},
+    "ConstantExpr": {},
+    "ConstantMatrixTypeLoc": {},
+    "ConstructorUsingShadowDecl": {},
+    "ContinueStmt": {
+      "sourceLocations": [
+        "getContinueLoc"
+      ]
+    },
+    "ConvertVectorExpr": {
+      "sourceLocations": [
+        "getBuiltinLoc",
+        "getRParenLoc"
+      ],
+      "typeSourceInfos": [
+        "getTypeSourceInfo"
+      ]
+    },
+    "CoreturnStmt": {
+      "sourceLocations": [
+        "getKeywordLoc"
+      ]
+    },
+    "CoroutineBodyStmt": {},
+    "CoroutineSuspendExpr": {
+      "sourceLocations": [
+        "getKeywordLoc"
+      ]
+    },
+    "CoyieldExpr": {},
+    "DecayedTypeLoc": {},
+    "Decl": {
+      "sourceLocations": [
+        "getBeginLoc",
+        "getEndLoc",
+        "getLocation",
+        "getBodyRBrace"
+      ],
+      "sourceRanges": [
+        "getSourceRange"
+      ]
+    },
+    "DeclRefExpr": {
+      "declNameInfos": [
+        "getNameInfo"
+      ],
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getLocation",
+        "getTemplateKeywordLoc",
+        "getLAngleLoc",
+        "getRAngleLoc"
+      ]
+    },
+    "DeclStmt": {},
+    "DeclarationNameInfo": {
+      "sourceLocations": [
+        "getLoc",
+        "getCXXLiteralOperatorNameLoc",
+        "getBeginLoc",
+        "getEndLoc"
+      ],
+      "sourceRanges": [
+        "getCXXOperatorNameRange",
+        "getSourceRange"
+      ],
+      "typeSourceInfos": [
+        "getNamedTypeInfo"
+      ]
+    },
+    "DeclaratorDecl": {
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getInnerLocStart",
+        "getOuterLocStart",
+        "getTypeSpecStartLoc",
+        "getTypeSpecEndLoc"
+      ],
+      "typeSourceInfos": [
+        "getTypeSourceInfo"
+      ]
+    },
+    "DecltypeTypeLoc": {
+      "sourceLocations": [
+        "getDecltypeLoc",
+        "getRParenLoc"
+      ]
+    },
+    "DecompositionDecl": {},
+    "DeducedTemplateSpecializationTypeLoc": {
+      "sourceLocations": [
+        "getTemplateNameLoc"
+      ]
+    },
+    "DeducedTypeLoc": {},
+    "DefaultStmt": {
+      "sourceLocations": [
+        "getDefaultLoc"
+      ]
+    },
+    "DependentAddressSpaceTypeLoc": {
+      "sourceLocations": [
+        "getAttrNameLoc"
+      ],
+      "sourceRanges": [
+        "getAttrOperandParensRange"
+      ],
+      "typeLocs": [
+        "getPointeeTypeLoc"
+      ]
+    },
+    "DependentBitIntTypeLoc": {},
+    "DependentCoawaitExpr": {
+      "sourceLocations": [
+        "getKeywordLoc"
+      ]
+    },
+    "DependentNameTypeLoc": {
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getElaboratedKeywordLoc",
+        "getNameLoc"
+      ]
+    },
+    "DependentScopeDeclRefExpr": {
+      "declNameInfos": [
+        "getNameInfo"
+      ],
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getLocation",
+        "getTemplateKeywordLoc",
+        "getLAngleLoc",
+        "getRAngleLoc"
+      ]
+    },
+    "DependentSizedArrayTypeLoc": {},
+    "DependentSizedExtVectorTypeLoc": {
+      "sourceLocations": [
+        "getNameLoc"
+      ],
+      "typeLocs": [
+        "getElementLoc"
+      ]
+    },
+    "DependentSizedMatrixTypeLoc": {},
+    "DependentTemplateSpecializationTypeLoc": {
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getElaboratedKeywordLoc",
+        "getTemplateKeywordLoc",
+        "getTemplateNameLoc",
+        "getLAngleLoc",
+        "getRAngleLoc"
+      ]
+    },
+    "DependentVectorTypeLoc": {
+      "sourceLocations": [
+        "getNameLoc"
+      ],
+      "typeLocs": [
+        "getElementLoc"
+      ]
+    },
+    "DesignatedInitExpr": {
+      "sourceLocations": [
+        "getEqualOrColonLoc"
+      ],
+      "sourceRanges": [
+        "getDesignatorsSourceRange"
+      ]
+    },
+    "DesignatedInitUpdateExpr": {},
+    "DoStmt": {
+      "sourceLocations": [
+        "getDoLoc",
+        "getWhileLoc",
+        "getRParenLoc"
+      ]
+    },
+    "ElaboratedTypeLoc": {
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getElaboratedKeywordLoc"
+      ],
+      "typeLocs": [
+        "getNamedTypeLoc"
+      ]
+    },
+    "EmptyDecl": {},
+    "EnumConstantDecl": {},
+    "EnumDecl": {
+      "sourceRanges": [
+        "getIntegerTypeRange"
+      ],
+      "typeSourceInfos": [
+        "getIntegerTypeSourceInfo"
+      ]
+    },
+    "EnumTypeLoc": {},
+    "ExplicitCastExpr": {
+      "typeSourceInfos": [
+        "getTypeInfoAsWritten"
+      ]
+    },
+    "ExportDecl": {
+      "sourceLocations": [
+        "getExportLoc",
+        "getRBraceLoc"
+      ]
+    },
+    "Expr": {
+      "sourceLocations": [
+        "getExprLoc"
+      ]
+    },
+    "ExprWithCleanups": {},
+    "ExpressionTraitExpr": {},
+    "ExtVectorElementExpr": {
+      "sourceLocations": [
+        "getAccessorLoc"
+      ]
+    },
+    "ExtVectorTypeLoc": {},
+    "ExternCContextDecl": {},
+    "FieldDecl": {},
+    "FileScopeAsmDecl": {
+      "sourceLocations": [
+        "getAsmLoc",
+        "getRParenLoc"
+      ]
+    },
+    "FixedPointLiteral": {
+      "sourceLocations": [
+        "getLocation"
+      ]
+    },
+    "FloatingLiteral": {
+      "sourceLocations": [
+        "getLocation"
+      ]
+    },
+    "ForStmt": {
+      "sourceLocations": [
+        "getForLoc",
+        "getLParenLoc",
+        "getRParenLoc"
+      ]
+    },
+    "FriendTemplateDecl": {
+      "sourceLocations": [
+        "getFriendLoc"
+      ],
+      "typeSourceInfos": [
+        "getFriendType"
+      ]
+    },
+    "FullExpr": {},
+    "FunctionDecl": {
+      "declNameInfos": [
+        "getNameInfo"
+      ],
+      "sourceLocations": [
+        "getEllipsisLoc",
+        "getPointOfInstantiation"
+      ],
+      "sourceRanges": [
+        "getReturnTypeSourceRange",
+        "getParametersSourceRange",
+        "getExceptionSpecSourceRange"
+      ]
+    },
+    "FunctionNoProtoTypeLoc": {},
+    "FunctionParmPackExpr": {
+      "sourceLocations": [
+        "getParameterPackLocation"
+      ]
+    },
+    "FunctionProtoTypeLoc": {},
+    "FunctionTemplateDecl": {},
+    "FunctionTypeLoc": {
+      "sourceLocations": [
+        "getLocalRangeBegin",
+        "getLocalRangeEnd",
+        "getLParenLoc",
+        "getRParenLoc"
+      ],
+      "sourceRanges": [
+        "getParensRange",
+        "getExceptionSpecRange"
+      ],
+      "typeLocs": [
+        "getReturnLoc"
+      ]
+    },
+    "GCCAsmStmt": {
+      "sourceLocations": [
+        "getRParenLoc"
+      ]
+    },
+    "GNUNullExpr": {
+      "sourceLocations": [
+        "getTokenLocation"
+      ]
+    },
+    "GenericSelectionExpr": {
+      "sourceLocations": [
+        "getGenericLoc",
+        "getDefaultLoc",
+        "getRParenLoc"
+      ]
+    },
+    "GotoStmt": {
+      "sourceLocations": [
+        "getGotoLoc",
+        "getLabelLoc"
+      ]
+    },
+    "IfStmt": {
+      "sourceLocations": [
+        "getIfLoc",
+        "getElseLoc",
+        "getLParenLoc",
+        "getRParenLoc"
+      ]
+    },
+    "ImaginaryLiteral": {},
+    "ImplicitCastExpr": {},
+    "ImplicitParamDecl": {},
+    "ImplicitValueInitExpr": {},
+    "ImportDecl": {},
+    "IncompleteArrayTypeLoc": {},
+    "IndirectFieldDecl": {},
+    "IndirectGotoStmt": {
+      "sourceLocations": [
+        "getGotoLoc",
+        "getStarLoc"
+      ]
+    },
+    "InitListExpr": {
+      "sourceLocations": [
+        "getLBraceLoc",
+        "getRBraceLoc"
+      ]
+    },
+    "InjectedClassNameTypeLoc": {},
+    "IntegerLiteral": {
+      "sourceLocations": [
+        "getLocation"
+      ]
+    },
+    "LValueReferenceTypeLoc": {
+      "sourceLocations": [
+        "getAmpLoc"
+      ]
+    },
+    "LabelDecl": {},
+    "LabelStmt": {
+      "sourceLocations": [
+        "getIdentLoc"
+      ]
+    },
+    "LambdaExpr": {
+      "sourceLocations": [
+        "getCaptureDefaultLoc"
+      ],
+      "sourceRanges": [
+        "getIntroducerRange"
+      ]
+    },
+    "LifetimeExtendedTemporaryDecl": {},
+    "LinkageSpecDecl": {
+      "sourceLocations": [
+        "getExternLoc",
+        "getRBraceLoc"
+      ]
+    },
+    "MSAsmStmt": {
+      "sourceLocations": [
+        "getLBraceLoc"
+      ]
+    },
+    "MSDependentExistsStmt": {
+      "declNameInfos": [
+        "getNameInfo"
+      ],
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getKeywordLoc"
+      ]
+    },
+    "MSGuidDecl": {},
+    "MSPropertyDecl": {},
+    "MSPropertyRefExpr": {
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getMemberLoc"
+      ]
+    },
+    "MSPropertySubscriptExpr": {
+      "sourceLocations": [
+        "getRBracketLoc"
+      ]
+    },
+    "MacroQualifiedTypeLoc": {
+      "sourceLocations": [
+        "getExpansionLoc"
+      ],
+      "typeLocs": [
+        "getInnerLoc"
+      ]
+    },
+    "MaterializeTemporaryExpr": {},
+    "MatrixSubscriptExpr": {
+      "sourceLocations": [
+        "getRBracketLoc"
+      ]
+    },
+    "MatrixTypeLoc": {
+      "sourceLocations": [
+        "getAttrNameLoc"
+      ],
+      "sourceRanges": [
+        "getAttrOperandParensRange"
+      ]
+    },
+    "MemberExpr": {
+      "declNameInfos": [
+        "getMemberNameInfo"
+      ],
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getTemplateKeywordLoc",
+        "getLAngleLoc",
+        "getRAngleLoc",
+        "getOperatorLoc",
+        "getMemberLoc"
+      ]
+    },
+    "MemberPointerTypeLoc": {
+      "sourceLocations": [
+        "getStarLoc"
+      ],
+      "typeSourceInfos": [
+        "getClassTInfo"
+      ]
+    },
+    "NamedDecl": {},
+    "NamespaceAliasDecl": {
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getAliasLoc",
+        "getNamespaceLoc",
+        "getTargetNameLoc"
+      ]
+    },
+    "NamespaceDecl": {
+      "sourceLocations": [
+        "getRBraceLoc"
+      ]
+    },
+    "NestedNameSpecifierLoc": {
+      "nestedNameLocs": [
+        "getPrefix"
+      ],
+      "sourceLocations": [
+        "getBeginLoc",
+        "getEndLoc",
+        "getLocalBeginLoc",
+        "getLocalEndLoc"
+      ],
+      "sourceRanges": [
+        "getSourceRange",
+        "getLocalSourceRange"
+      ],
+      "typeLocs": [
+        "getTypeLoc"
+      ]
+    },
+    "NoInitExpr": {},
+    "NonTypeTemplateParmDecl": {
+      "sourceLocations": [
+        "getDefaultArgumentLoc"
+      ]
+    },
+    "NullStmt": {
+      "sourceLocations": [
+        "getSemiLoc"
+      ]
+    },
+    "OMPArraySectionExpr": {
+      "sourceLocations": [
+        "getColonLocFirst",
+        "getColonLocSecond",
+        "getRBracketLoc"
+      ]
+    },
+    "OMPArrayShapingExpr": {
+      "sourceLocations": [
+        "getLParenLoc",
+        "getRParenLoc"
+      ]
+    },
+    "OMPAtomicDirective": {},
+    "OMPBarrierDirective": {},
+    "OMPCancelDirective": {},
+    "OMPCancellationPointDirective": {},
+    "OMPCanonicalLoop": {},
+    "OMPCriticalDirective": {
+      "declNameInfos": [
+        "getDirectiveName"
+      ]
+    },
+    "OMPDepobjDirective": {},
+    "OMPDispatchDirective": {
+      "sourceLocations": [
+        "getTargetCallLoc"
+      ]
+    },
+    "OMPDistributeDirective": {},
+    "OMPDistributeParallelForDirective": {},
+    "OMPDistributeParallelForSimdDirective": {},
+    "OMPDistributeSimdDirective": {},
+    "OMPExecutableDirective": {},
+    "OMPFlushDirective": {},
+    "OMPForDirective": {},
+    "OMPForSimdDirective": {},
+    "OMPGenericLoopDirective": {},
+    "OMPInteropDirective": {},
+    "OMPIteratorExpr": {
+      "sourceLocations": [
+        "getLParenLoc",
+        "getRParenLoc",
+        "getIteratorKwLoc"
+      ]
+    },
+    "OMPLoopBasedDirective": {},
+    "OMPLoopDirective": {},
+    "OMPLoopTransformationDirective": {},
+    "OMPMaskedDirective": {},
+    "OMPMasterDirective": {},
+    "OMPMasterTaskLoopDirective": {},
+    "OMPMasterTaskLoopSimdDirective": {},
+    "OMPMetaDirective": {},
+    "OMPOrderedDirective": {},
+    "OMPParallelDirective": {},
+    "OMPParallelForDirective": {},
+    "OMPParallelForSimdDirective": {},
+    "OMPParallelMasterDirective": {},
+    "OMPParallelMasterTaskLoopDirective": {},
+    "OMPParallelMasterTaskLoopSimdDirective": {},
+    "OMPParallelSectionsDirective": {},
+    "OMPScanDirective": {},
+    "OMPSectionDirective": {},
+    "OMPSectionsDirective": {},
+    "OMPSimdDirective": {},
+    "OMPSingleDirective": {},
+    "OMPTargetDataDirective": {},
+    "OMPTargetDirective": {},
+    "OMPTargetEnterDataDirective": {},
+    "OMPTargetExitDataDirective": {},
+    "OMPTargetParallelDirective": {},
+    "OMPTargetParallelForDirective": {},
+    "OMPTargetParallelForSimdDirective": {},
+    "OMPTargetSimdDirective": {},
+    "OMPTargetTeamsDirective": {},
+    "OMPTargetTeamsDistributeDirective": {},
+    "OMPTargetTeamsDistributeParallelForDirective": {},
+    "OMPTargetTeamsDistributeParallelForSimdDirective": {},
+    "OMPTargetTeamsDistributeSimdDirective": {},
+    "OMPTargetUpdateDirective": {},
+    "OMPTaskDirective": {},
+    "OMPTaskLoopDirective": {},
+    "OMPTaskLoopSimdDirective": {},
+    "OMPTaskgroupDirective": {},
+    "OMPTaskwaitDirective": {},
+    "OMPTaskyieldDirective": {},
+    "OMPTeamsDirective": {},
+    "OMPTeamsDistributeDirective": {},
+    "OMPTeamsDistributeParallelForDirective": {},
+    "OMPTeamsDistributeParallelForSimdDirective": {},
+    "OMPTeamsDistributeSimdDirective": {},
+    "OMPTileDirective": {},
+    "OMPUnrollDirective": {},
+    "ObjCArrayLiteral": {},
+    "ObjCAtCatchStmt": {
+      "sourceLocations": [
+        "getAtCatchLoc",
+        "getRParenLoc"
+      ]
+    },
+    "ObjCAtDefsFieldDecl": {},
+    "ObjCAtFinallyStmt": {
+      "sourceLocations": [
+        "getAtFinallyLoc"
+      ]
+    },
+    "ObjCAtSynchronizedStmt": {
+      "sourceLocations": [
+        "getAtSynchronizedLoc"
+      ]
+    },
+    "ObjCAtThrowStmt": {
+      "sourceLocations": [
+        "getThrowLoc"
+      ]
+    },
+    "ObjCAtTryStmt": {
+      "sourceLocations": [
+        "getAtTryLoc"
+      ]
+    },
+    "ObjCAutoreleasePoolStmt": {
+      "sourceLocations": [
+        "getAtLoc"
+      ]
+    },
+    "ObjCAvailabilityCheckExpr": {},
+    "ObjCBoolLiteralExpr": {
+      "sourceLocations": [
+        "getLocation"
+      ]
+    },
+    "ObjCBoxedExpr": {
+      "sourceLocations": [
+        "getAtLoc"
+      ]
+    },
+    "ObjCBridgedCastExpr": {
+      "sourceLocations": [
+        "getLParenLoc",
+        "getBridgeKeywordLoc"
+      ]
+    },
+    "ObjCCategoryDecl": {
+      "sourceLocations": [
+        "getCategoryNameLoc",
+        "getIvarLBraceLoc",
+        "getIvarRBraceLoc"
+      ]
+    },
+    "ObjCCategoryImplDecl": {
+      "sourceLocations": [
+        "getCategoryNameLoc"
+      ]
+    },
+    "ObjCCompatibleAliasDecl": {},
+    "ObjCContainerDecl": {
+      "sourceLocations": [
+        "getAtStartLoc"
+      ],
+      "sourceRanges": [
+        "getAtEndRange"
+      ]
+    },
+    "ObjCDictionaryLiteral": {},
+    "ObjCEncodeExpr": {
+      "sourceLocations": [
+        "getAtLoc",
+        "getRParenLoc"
+      ],
+      "typeSourceInfos": [
+        "getEncodedTypeSourceInfo"
+      ]
+    },
+    "ObjCForCollectionStmt": {
+      "sourceLocations": [
+        "getForLoc",
+        "getRParenLoc"
+      ]
+    },
+    "ObjCImplDecl": {},
+    "ObjCImplementationDecl": {
+      "sourceLocations": [
+        "getSuperClassLoc",
+        "getIvarLBraceLoc",
+        "getIvarRBraceLoc"
+      ]
+    },
+    "ObjCIndirectCopyRestoreExpr": {},
+    "ObjCInterfaceDecl": {
+      "sourceLocations": [
+        "getEndOfDefinitionLoc",
+        "getSuperClassLoc"
+      ],
+      "typeSourceInfos": [
+        "getSuperClassTInfo"
+      ]
+    },
+    "ObjCInterfaceTypeLoc": {
+      "sourceLocations": [
+        "getNameLoc",
+        "getNameEndLoc"
+      ]
+    },
+    "ObjCIsaExpr": {
+      "sourceLocations": [
+        "getIsaMemberLoc",
+        "getOpLoc",
+        "getBaseLocEnd"
+      ]
+    },
+    "ObjCIvarDecl": {},
+    "ObjCIvarRefExpr": {
+      "sourceLocations": [
+        "getLocation",
+        "getOpLoc"
+      ]
+    },
+    "ObjCMessageExpr": {
+      "sourceLocations": [
+        "getSuperLoc",
+        "getLeftLoc",
+        "getRightLoc",
+        "getSelectorStartLoc"
+      ],
+      "sourceRanges": [
+        "getReceiverRange"
+      ],
+      "typeSourceInfos": [
+        "getClassReceiverTypeInfo"
+      ]
+    },
+    "ObjCMethodDecl": {
+      "sourceLocations": [
+        "getDeclaratorEndLoc",
+        "getSelectorStartLoc"
+      ],
+      "sourceRanges": [
+        "getReturnTypeSourceRange"
+      ],
+      "typeSourceInfos": [
+        "getReturnTypeSourceInfo"
+      ]
+    },
+    "ObjCObjectPointerTypeLoc": {
+      "sourceLocations": [
+        "getStarLoc"
+      ]
+    },
+    "ObjCObjectTypeLoc": {
+      "sourceLocations": [
+        "getTypeArgsLAngleLoc",
+        "getTypeArgsRAngleLoc",
+        "getProtocolLAngleLoc",
+        "getProtocolRAngleLoc"
+      ],
+      "typeLocs": [
+        "getBaseLoc"
+      ]
+    },
+    "ObjCPropertyDecl": {
+      "sourceLocations": [
+        "getAtLoc",
+        "getLParenLoc",
+        "getGetterNameLoc",
+        "getSetterNameLoc"
+      ],
+      "typeSourceInfos": [
+        "getTypeSourceInfo"
+      ]
+    },
+    "ObjCPropertyImplDecl": {
+      "sourceLocations": [
+        "getPropertyIvarDeclLoc"
+      ]
+    },
+    "ObjCPropertyRefExpr": {
+      "sourceLocations": [
+        "getLocation",
+        "getReceiverLocation"
+      ]
+    },
+    "ObjCProtocolDecl": {},
+    "ObjCProtocolExpr": {
+      "sourceLocations": [
+        "getProtocolIdLoc",
+        "getAtLoc",
+        "getRParenLoc"
+      ]
+    },
+    "ObjCSelectorExpr": {
+      "sourceLocations": [
+        "getAtLoc",
+        "getRParenLoc"
+      ]
+    },
+    "ObjCStringLiteral": {
+      "sourceLocations": [
+        "getAtLoc"
+      ]
+    },
+    "ObjCSubscriptRefExpr": {
+      "sourceLocations": [
+        "getRBracket"
+      ]
+    },
+    "ObjCTypeParamDecl": {
+      "sourceLocations": [
+        "getVarianceLoc",
+        "getColonLoc"
+      ]
+    },
+    "ObjCTypeParamTypeLoc": {
+      "sourceLocations": [
+        "getNameLoc",
+        "getProtocolLAngleLoc",
+        "getProtocolRAngleLoc"
+      ]
+    },
+    "OffsetOfExpr": {
+      "sourceLocations": [
+        "getOperatorLoc",
+        "getRParenLoc"
+      ],
+      "typeSourceInfos": [
+        "getTypeSourceInfo"
+      ]
+    },
+    "OpaqueValueExpr": {
+      "sourceLocations": [
+        "getLocation"
+      ]
+    },
+    "OverloadExpr": {
+      "declNameInfos": [
+        "getNameInfo"
+      ],
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getNameLoc",
+        "getTemplateKeywordLoc",
+        "getLAngleLoc",
+        "getRAngleLoc"
+      ]
+    },
+    "PackExpansionExpr": {
+      "sourceLocations": [
+        "getEllipsisLoc"
+      ]
+    },
+    "PackExpansionTypeLoc": {
+      "sourceLocations": [
+        "getEllipsisLoc"
+      ],
+      "typeLocs": [
+        "getPatternLoc"
+      ]
+    },
+    "ParenExpr": {
+      "sourceLocations": [
+        "getLParen",
+        "getRParen"
+      ]
+    },
+    "ParenListExpr": {
+      "sourceLocations": [
+        "getLParenLoc",
+        "getRParenLoc"
+      ]
+    },
+    "ParenTypeLoc": {
+      "sourceLocations": [
+        "getLParenLoc",
+        "getRParenLoc"
+      ],
+      "typeLocs": [
+        "getInnerLoc"
+      ]
+    },
+    "ParmVarDecl": {
+      "sourceRanges": [
+        "getDefaultArgRange"
+      ]
+    },
+    "PipeTypeLoc": {
+      "sourceLocations": [
+        "getKWLoc"
+      ],
+      "typeLocs": [
+        "getValueLoc"
+      ]
+    },
+    "PointerLikeTypeLoc": {
+      "sourceLocations": [
+        "getSigilLoc"
+      ],
+      "templateParms": [
+        "Derived",
+        "TypeClass",
+        "LocalData"
+      ],
+      "typeLocs": [
+        "getPointeeLoc"
+      ]
+    },
+    "PointerTypeLoc": {
+      "sourceLocations": [
+        "getStarLoc"
+      ]
+    },
+    "PragmaCommentDecl": {},
+    "PragmaDetectMismatchDecl": {},
+    "PredefinedExpr": {
+      "sourceLocations": [
+        "getLocation"
+      ]
+    },
+    "PseudoObjectExpr": {},
+    "QualifiedTypeLoc": {
+      "typeLocs": [
+        "getNextTypeLoc"
+      ]
+    },
+    "RValueReferenceTypeLoc": {
+      "sourceLocations": [
+        "getAmpAmpLoc"
+      ]
+    },
+    "RecordDecl": {},
+    "RecordTypeLoc": {},
+    "RecoveryExpr": {},
+    "RedeclarableTemplateDecl": {},
+    "ReferenceTypeLoc": {},
+    "RequiresExpr": {
+      "sourceLocations": [
+        "getRequiresKWLoc",
+        "getRBraceLoc"
+      ]
+    },
+    "RequiresExprBodyDecl": {},
+    "ReturnStmt": {
+      "sourceLocations": [
+        "getReturnLoc"
+      ]
+    },
+    "SEHExceptStmt": {
+      "sourceLocations": [
+        "getExceptLoc"
+      ]
+    },
+    "SEHFinallyStmt": {
+      "sourceLocations": [
+        "getFinallyLoc"
+      ]
+    },
+    "SEHLeaveStmt": {
+      "sourceLocations": [
+        "getLeaveLoc"
+      ]
+    },
+    "SEHTryStmt": {
+      "sourceLocations": [
+        "getTryLoc"
+      ]
+    },
+    "SYCLUniqueStableNameExpr": {
+      "sourceLocations": [
+        "getLocation",
+        "getLParenLocation",
+        "getRParenLocation"
+      ]
+    },
+    "ShuffleVectorExpr": {
+      "sourceLocations": [
+        "getBuiltinLoc",
+        "getRParenLoc"
+      ]
+    },
+    "SizeOfPackExpr": {
+      "sourceLocations": [
+        "getOperatorLoc",
+        "getPackLoc",
+        "getRParenLoc"
+      ]
+    },
+    "SourceLocExpr": {
+      "sourceLocations": [
+        "getLocation"
+      ]
+    },
+    "StaticAssertDecl": {
+      "sourceLocations": [
+        "getRParenLoc"
+      ]
+    },
+    "Stmt": {
+      "sourceLocations": [
+        "getBeginLoc",
+        "getEndLoc"
+      ],
+      "sourceRanges": [
+        "getSourceRange"
+      ]
+    },
+    "StmtExpr": {
+      "sourceLocations": [
+        "getLParenLoc",
+        "getRParenLoc"
+      ]
+    },
+    "StringLiteral": {},
+    "SubstNonTypeTemplateParmExpr": {
+      "sourceLocations": [
+        "getNameLoc"
+      ]
+    },
+    "SubstNonTypeTemplateParmPackExpr": {
+      "sourceLocations": [
+        "getParameterPackLocation"
+      ]
+    },
+    "SubstTemplateTypeParmPackTypeLoc": {},
+    "SubstTemplateTypeParmTypeLoc": {},
+    "SwitchCase": {
+      "sourceLocations": [
+        "getKeywordLoc",
+        "getColonLoc"
+      ]
+    },
+    "SwitchStmt": {
+      "sourceLocations": [
+        "getSwitchLoc",
+        "getLParenLoc",
+        "getRParenLoc"
+      ]
+    },
+    "TagDecl": {
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getInnerLocStart",
+        "getOuterLocStart"
+      ],
+      "sourceRanges": [
+        "getBraceRange"
+      ]
+    },
+    "TagTypeLoc": {},
+    "TemplateArgumentLoc": {
+      "nestedNameLocs": [
+        "getTemplateQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getLocation",
+        "getTemplateNameLoc",
+        "getTemplateEllipsisLoc"
+      ],
+      "sourceRanges": [
+        "getSourceRange"
+      ],
+      "typeSourceInfos": [
+        "getTypeSourceInfo"
+      ]
+    },
+    "TemplateDecl": {},
+    "TemplateParamObjectDecl": {},
+    "TemplateSpecializationTypeLoc": {
+      "sourceLocations": [
+        "getTemplateKeywordLoc",
+        "getLAngleLoc",
+        "getRAngleLoc",
+        "getTemplateNameLoc"
+      ]
+    },
+    "TemplateTemplateParmDecl": {
+      "sourceLocations": [
+        "getDefaultArgumentLoc"
+      ]
+    },
+    "TemplateTypeParmDecl": {
+      "sourceLocations": [
+        "getDefaultArgumentLoc"
+      ],
+      "typeSourceInfos": [
+        "getDefaultArgumentInfo"
+      ]
+    },
+    "TemplateTypeParmTypeLoc": {},
+    "TranslationUnitDecl": {},
+    "TypeAliasDecl": {},
+    "TypeAliasTemplateDecl": {},
+    "TypeDecl": {},
+    "TypeLoc": {
+      "sourceLocations": [
+        "getBeginLoc",
+        "getEndLoc",
+        "findNullabilityLoc"
+      ],
+      "sourceRanges": [
+        "getSourceRange",
+        "getLocalSourceRange"
+      ],
+      "typeLocs": [
+        "getNextTypeLoc",
+        "IgnoreParens",
+        "findExplicitQualifierLoc"
+      ]
+    },
+    "TypeOfExprTypeLoc": {},
+    "TypeOfTypeLoc": {
+      "typeSourceInfos": [
+        "getUnderlyingTInfo"
+      ]
+    },
+    "TypeSpecTypeLoc": {
+      "sourceLocations": [
+        "getNameLoc"
+      ]
+    },
+    "TypeTraitExpr": {},
+    "TypedefDecl": {},
+    "TypedefNameDecl": {
+      "typeSourceInfos": [
+        "getTypeSourceInfo"
+      ]
+    },
+    "TypedefTypeLoc": {},
+    "TypeofLikeTypeLoc": {
+      "sourceLocations": [
+        "getTypeofLoc",
+        "getLParenLoc",
+        "getRParenLoc"
+      ],
+      "sourceRanges": [
+        "getParensRange"
+      ],
+      "templateParms": [
+        "Derived",
+        "TypeClass",
+        "LocalData"
+      ]
+    },
+    "TypoExpr": {},
+    "UnaryExprOrTypeTraitExpr": {
+      "sourceLocations": [
+        "getOperatorLoc",
+        "getRParenLoc"
+      ],
+      "typeSourceInfos": [
+        "getArgumentTypeInfo"
+      ]
+    },
+    "UnaryOperator": {
+      "sourceLocations": [
+        "getOperatorLoc"
+      ]
+    },
+    "UnaryTransformTypeLoc": {
+      "sourceLocations": [
+        "getKWLoc",
+        "getLParenLoc",
+        "getRParenLoc"
+      ],
+      "sourceRanges": [
+        "getParensRange"
+      ],
+      "typeSourceInfos": [
+        "getUnderlyingTInfo"
+      ]
+    },
+    "UnqualTypeLoc": {},
+    "UnresolvedLookupExpr": {},
+    "UnresolvedMemberExpr": {
+      "declNameInfos": [
+        "getMemberNameInfo"
+      ],
+      "sourceLocations": [
+        "getOperatorLoc",
+        "getMemberLoc"
+      ]
+    },
+    "UnresolvedUsingIfExistsDecl": {},
+    "UnresolvedUsingTypeLoc": {},
+    "UnresolvedUsingTypenameDecl": {
+      "declNameInfos": [
+        "getNameInfo"
+      ],
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getUsingLoc",
+        "getTypenameLoc",
+        "getEllipsisLoc"
+      ]
+    },
+    "UnresolvedUsingValueDecl": {
+      "declNameInfos": [
+        "getNameInfo"
+      ],
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getUsingLoc",
+        "getEllipsisLoc"
+      ]
+    },
+    "UserDefinedLiteral": {
+      "sourceLocations": [
+        "getUDSuffixLoc"
+      ]
+    },
+    "UsingDecl": {
+      "declNameInfos": [
+        "getNameInfo"
+      ],
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getUsingLoc"
+      ]
+    },
+    "UsingDirectiveDecl": {
+      "nestedNameLocs": [
+        "getQualifierLoc"
+      ],
+      "sourceLocations": [
+        "getUsingLoc",
+        "getNamespaceKeyLocation",
+        "getIdentLocation"
+      ]
+    },
+    "UsingEnumDecl": {
+      "sourceLocations": [
+        "getUsingLoc",
+        "getEnumLoc"
+      ]
+    },
+    "UsingPackDecl": {},
+    "UsingShadowDecl": {},
+    "UsingTypeLoc": {},
+    "VAArgExpr": {
+      "sourceLocations": [
+        "getBuiltinLoc",
+        "getRParenLoc"
+      ],
+      "typeSourceInfos": [
+        "getWrittenTypeInfo"
+      ]
+    },
+    "ValueDecl": {},
+    "ValueStmt": {},
+    "VarDecl": {
+      "sourceLocations": [
+        "getPointOfInstantiation"
+      ]
+    },
+    "VarTemplateDecl": {},
+    "VarTemplatePartialSpecializationDecl": {},
+    "VarTemplateSpecializationDecl": {
+      "sourceLocations": [
+        "getPointOfInstantiation",
+        "getExternLoc",
+        "getTemplateKeywordLoc"
+      ],
+      "typeSourceInfos": [
+        "getTypeAsWritten"
+      ]
+    },
+    "VariableArrayTypeLoc": {},
+    "VectorTypeLoc": {
+      "sourceLocations": [
+        "getNameLoc"
+      ],
+      "typeLocs": [
+        "getElementLoc"
+      ]
+    },
+    "WhileStmt": {
+      "sourceLocations": [
+        "getWhileLoc",
+        "getLParenLoc",
+        "getRParenLoc"
+      ]
+    }
+  },
+  "classInheritance": {
+    "AbstractConditionalOperator": "Expr",
+    "AccessSpecDecl": "Decl",
+    "AddrLabelExpr": "Expr",
+    "AdjustedTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::AdjustedTypeLoc, clang::AdjustedType, clang::AdjustedLocInfo>",
+    "ArrayInitIndexExpr": "Expr",
+    "ArrayInitLoopExpr": "Expr",
+    "ArraySubscriptExpr": "Expr",
+    "ArrayTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::ArrayTypeLoc, clang::ArrayType, clang::ArrayLocInfo>",
+    "ArrayTypeTraitExpr": "Expr",
+    "AsTypeExpr": "Expr",
+    "AsmStmt": "Stmt",
+    "AtomicExpr": "Expr",
+    "AtomicTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::AtomicTypeLoc, clang::AtomicType, clang::AtomicTypeLocInfo>",
+    "AttributedStmt": "ValueStmt",
+    "AttributedTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::AttributedTypeLoc, clang::AttributedType, clang::AttributedLocInfo>",
+    "AutoTypeLoc": "ConcreteTypeLoc<clang::DeducedTypeLoc, clang::AutoTypeLoc, clang::AutoType, clang::AutoTypeLocInfo>",
+    "BaseUsingDecl": "NamedDecl",
+    "BinaryConditionalOperator": "AbstractConditionalOperator",
+    "BinaryOperator": "Expr",
+    "BindingDecl": "ValueDecl",
+    "BitIntTypeLoc": "InheritingConcreteTypeLoc<clang::TypeSpecTypeLoc, clang::BitIntTypeLoc, clang::BitIntType>",
+    "BlockDecl": "Decl",
+    "BlockExpr": "Expr",
+    "BlockPointerTypeLoc": "PointerLikeTypeLoc<clang::BlockPointerTypeLoc, clang::BlockPointerType, clang::PointerLikeLocInfo>",
+    "BreakStmt": "Stmt",
+    "BuiltinBitCastExpr": "ExplicitCastExpr",
+    "BuiltinTemplateDecl": "TemplateDecl",
+    "BuiltinTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::BuiltinTypeLoc, clang::BuiltinType, clang::BuiltinLocInfo>",
+    "CStyleCastExpr": "ExplicitCastExpr",
+    "CUDAKernelCallExpr": "CallExpr",
+    "CXXAddrspaceCastExpr": "CXXNamedCastExpr",
+    "CXXBindTemporaryExpr": "Expr",
+    "CXXBoolLiteralExpr": "Expr",
+    "CXXCatchStmt": "Stmt",
+    "CXXConstCastExpr": "CXXNamedCastExpr",
+    "CXXConstructExpr": "Expr",
+    "CXXConstructorDecl": "CXXMethodDecl",
+    "CXXConversionDecl": "CXXMethodDecl",
+    "CXXDeductionGuideDecl": "FunctionDecl",
+    "CXXDefaultArgExpr": "Expr",
+    "CXXDefaultInitExpr": "Expr",
+    "CXXDeleteExpr": "Expr",
+    "CXXDependentScopeMemberExpr": "Expr",
+    "CXXDestructorDecl": "CXXMethodDecl",
+    "CXXDynamicCastExpr": "CXXNamedCastExpr",
+    "CXXFoldExpr": "Expr",
+    "CXXForRangeStmt": "Stmt",
+    "CXXFunctionalCastExpr": "ExplicitCastExpr",
+    "CXXInheritedCtorInitExpr": "Expr",
+    "CXXMemberCallExpr": "CallExpr",
+    "CXXMethodDecl": "FunctionDecl",
+    "CXXNamedCastExpr": "ExplicitCastExpr",
+    "CXXNewExpr": "Expr",
+    "CXXNoexceptExpr": "Expr",
+    "CXXNullPtrLiteralExpr": "Expr",
+    "CXXOperatorCallExpr": "CallExpr",
+    "CXXPseudoDestructorExpr": "Expr",
+    "CXXRecordDecl": "RecordDecl",
+    "CXXReinterpretCastExpr": "CXXNamedCastExpr",
+    "CXXRewrittenBinaryOperator": "Expr",
+    "CXXScalarValueInitExpr": "Expr",
+    "CXXStaticCastExpr": "CXXNamedCastExpr",
+    "CXXStdInitializerListExpr": "Expr",
+    "CXXTemporaryObjectExpr": "CXXConstructExpr",
+    "CXXThisExpr": "Expr",
+    "CXXThrowExpr": "Expr",
+    "CXXTryStmt": "Stmt",
+    "CXXTypeidExpr": "Expr",
+    "CXXUnresolvedConstructExpr": "Expr",
+    "CXXUuidofExpr": "Expr",
+    "CallExpr": "Expr",
+    "CapturedDecl": "Decl",
+    "CapturedStmt": "Stmt",
+    "CaseStmt": "SwitchCase",
+    "CastExpr": "Expr",
+    "CharacterLiteral": "Expr",
+    "ChooseExpr": "Expr",
+    "ClassScopeFunctionSpecializationDecl": "Decl",
+    "ClassTemplateDecl": "RedeclarableTemplateDecl",
+    "ClassTemplatePartialSpecializationDecl": "ClassTemplateSpecializationDecl",
+    "ClassTemplateSpecializationDecl": "CXXRecordDecl",
+    "CoawaitExpr": "CoroutineSuspendExpr",
+    "ComplexTypeLoc": "InheritingConcreteTypeLoc<clang::TypeSpecTypeLoc, clang::ComplexTypeLoc, clang::ComplexType>",
+    "CompoundAssignOperator": "BinaryOperator",
+    "CompoundLiteralExpr": "Expr",
+    "CompoundStmt": "Stmt",
+    "ConceptDecl": "TemplateDecl",
+    "ConceptSpecializationExpr": "Expr",
+    "ConditionalOperator": "AbstractConditionalOperator",
+    "ConstantArrayTypeLoc": "InheritingConcreteTypeLoc<clang::ArrayTypeLoc, clang::ConstantArrayTypeLoc, clang::ConstantArrayType>",
+    "ConstantExpr": "FullExpr",
+    "ConstantMatrixTypeLoc": "InheritingConcreteTypeLoc<clang::MatrixTypeLoc, clang::ConstantMatrixTypeLoc, clang::ConstantMatrixType>",
+    "ConstructorUsingShadowDecl": "UsingShadowDecl",
+    "ContinueStmt": "Stmt",
+    "ConvertVectorExpr": "Expr",
+    "CoreturnStmt": "Stmt",
+    "CoroutineBodyStmt": "Stmt",
+    "CoroutineSuspendExpr": "Expr",
+    "CoyieldExpr": "CoroutineSuspendExpr",
+    "DecayedTypeLoc": "InheritingConcreteTypeLoc<clang::AdjustedTypeLoc, clang::DecayedTypeLoc, clang::DecayedType>",
+    "DeclRefExpr": "Expr",
+    "DeclStmt": "Stmt",
+    "DeclaratorDecl": "ValueDecl",
+    "DecltypeTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::DecltypeTypeLoc, clang::DecltypeType, clang::DecltypeTypeLocInfo>",
+    "DecompositionDecl": "VarDecl",
+    "DeducedTemplateSpecializationTypeLoc": "InheritingConcreteTypeLoc<clang::DeducedTypeLoc, clang::DeducedTemplateSpecializationTypeLoc, clang::DeducedTemplateSpecializationType>",
+    "DeducedTypeLoc": "InheritingConcreteTypeLoc<clang::TypeSpecTypeLoc, clang::DeducedTypeLoc, clang::DeducedType>",
+    "DefaultStmt": "SwitchCase",
+    "DependentAddressSpaceTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::DependentAddressSpaceTypeLoc, clang::DependentAddressSpaceType, clang::DependentAddressSpaceLocInfo>",
+    "DependentBitIntTypeLoc": "InheritingConcreteTypeLoc<clang::TypeSpecTypeLoc, clang::DependentBitIntTypeLoc, clang::DependentBitIntType>",
+    "DependentCoawaitExpr": "Expr",
+    "DependentNameTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::DependentNameTypeLoc, clang::DependentNameType, clang::DependentNameLocInfo>",
+    "DependentScopeDeclRefExpr": "Expr",
+    "DependentSizedArrayTypeLoc": "InheritingConcreteTypeLoc<clang::ArrayTypeLoc, clang::DependentSizedArrayTypeLoc, clang::DependentSizedArrayType>",
+    "DependentSizedExtVectorTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::DependentSizedExtVectorTypeLoc, clang::DependentSizedExtVectorType, clang::VectorTypeLocInfo>",
+    "DependentSizedMatrixTypeLoc": "InheritingConcreteTypeLoc<clang::MatrixTypeLoc, clang::DependentSizedMatrixTypeLoc, clang::DependentSizedMatrixType>",
+    "DependentTemplateSpecializationTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::DependentTemplateSpecializationTypeLoc, clang::DependentTemplateSpecializationType, clang::DependentTemplateSpecializationLocInfo>",
+    "DependentVectorTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::DependentVectorTypeLoc, clang::DependentVectorType, clang::VectorTypeLocInfo>",
+    "DesignatedInitExpr": "Expr",
+    "DesignatedInitUpdateExpr": "Expr",
+    "DoStmt": "Stmt",
+    "ElaboratedTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::ElaboratedTypeLoc, clang::ElaboratedType, clang::ElaboratedLocInfo>",
+    "EmptyDecl": "Decl",
+    "EnumConstantDecl": "ValueDecl",
+    "EnumDecl": "TagDecl",
+    "EnumTypeLoc": "InheritingConcreteTypeLoc<clang::TagTypeLoc, clang::EnumTypeLoc, clang::EnumType>",
+    "ExplicitCastExpr": "CastExpr",
+    "ExportDecl": "Decl",
+    "Expr": "ValueStmt",
+    "ExprWithCleanups": "FullExpr",
+    "ExpressionTraitExpr": "Expr",
+    "ExtVectorElementExpr": "Expr",
+    "ExtVectorTypeLoc": "InheritingConcreteTypeLoc<clang::VectorTypeLoc, clang::ExtVectorTypeLoc, clang::ExtVectorType>",
+    "ExternCContextDecl": "Decl",
+    "FieldDecl": "DeclaratorDecl",
+    "FileScopeAsmDecl": "Decl",
+    "FixedPointLiteral": "Expr",
+    "FloatingLiteral": "Expr",
+    "ForStmt": "Stmt",
+    "FriendTemplateDecl": "Decl",
+    "FullExpr": "Expr",
+    "FunctionDecl": "DeclaratorDecl",
+    "FunctionNoProtoTypeLoc": "InheritingConcreteTypeLoc<clang::FunctionTypeLoc, clang::FunctionNoProtoTypeLoc, clang::FunctionNoProtoType>",
+    "FunctionParmPackExpr": "Expr",
+    "FunctionProtoTypeLoc": "InheritingConcreteTypeLoc<clang::FunctionTypeLoc, clang::FunctionProtoTypeLoc, clang::FunctionProtoType>",
+    "FunctionTemplateDecl": "RedeclarableTemplateDecl",
+    "FunctionTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::FunctionTypeLoc, clang::FunctionType, clang::FunctionLocInfo>",
+    "GCCAsmStmt": "AsmStmt",
+    "GNUNullExpr": "Expr",
+    "GenericSelectionExpr": "Expr",
+    "GotoStmt": "Stmt",
+    "IfStmt": "Stmt",
+    "ImaginaryLiteral": "Expr",
+    "ImplicitCastExpr": "CastExpr",
+    "ImplicitParamDecl": "VarDecl",
+    "ImplicitValueInitExpr": "Expr",
+    "ImportDecl": "Decl",
+    "IncompleteArrayTypeLoc": "InheritingConcreteTypeLoc<clang::ArrayTypeLoc, clang::IncompleteArrayTypeLoc, clang::IncompleteArrayType>",
+    "IndirectFieldDecl": "ValueDecl",
+    "IndirectGotoStmt": "Stmt",
+    "InitListExpr": "Expr",
+    "InjectedClassNameTypeLoc": "InheritingConcreteTypeLoc<clang::TypeSpecTypeLoc, clang::InjectedClassNameTypeLoc, clang::InjectedClassNameType>",
+    "IntegerLiteral": "Expr",
+    "LValueReferenceTypeLoc": "InheritingConcreteTypeLoc<clang::ReferenceTypeLoc, clang::LValueReferenceTypeLoc, clang::LValueReferenceType>",
+    "LabelDecl": "NamedDecl",
+    "LabelStmt": "ValueStmt",
+    "LambdaExpr": "Expr",
+    "LifetimeExtendedTemporaryDecl": "Decl",
+    "LinkageSpecDecl": "Decl",
+    "MSAsmStmt": "AsmStmt",
+    "MSDependentExistsStmt": "Stmt",
+    "MSGuidDecl": "ValueDecl",
+    "MSPropertyDecl": "DeclaratorDecl",
+    "MSPropertyRefExpr": "Expr",
+    "MSPropertySubscriptExpr": "Expr",
+    "MacroQualifiedTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::MacroQualifiedTypeLoc, clang::MacroQualifiedType, clang::MacroQualifiedLocInfo>",
+    "MaterializeTemporaryExpr": "Expr",
+    "MatrixSubscriptExpr": "Expr",
+    "MatrixTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::MatrixTypeLoc, clang::MatrixType, clang::MatrixTypeLocInfo>",
+    "MemberExpr": "Expr",
+    "MemberPointerTypeLoc": "PointerLikeTypeLoc<clang::MemberPointerTypeLoc, clang::MemberPointerType, clang::MemberPointerLocInfo>",
+    "NamedDecl": "Decl",
+    "NamespaceAliasDecl": "NamedDecl",
+    "NamespaceDecl": "NamedDecl",
+    "NoInitExpr": "Expr",
+    "NonTypeTemplateParmDecl": "DeclaratorDecl",
+    "NullStmt": "Stmt",
+    "OMPArraySectionExpr": "Expr",
+    "OMPArrayShapingExpr": "Expr",
+    "OMPAtomicDirective": "OMPExecutableDirective",
+    "OMPBarrierDirective": "OMPExecutableDirective",
+    "OMPCancelDirective": "OMPExecutableDirective",
+    "OMPCancellationPointDirective": "OMPExecutableDirective",
+    "OMPCanonicalLoop": "Stmt",
+    "OMPCriticalDirective": "OMPExecutableDirective",
+    "OMPDepobjDirective": "OMPExecutableDirective",
+    "OMPDispatchDirective": "OMPExecutableDirective",
+    "OMPDistributeDirective": "OMPLoopDirective",
+    "OMPDistributeParallelForDirective": "OMPLoopDirective",
+    "OMPDistributeParallelForSimdDirective": "OMPLoopDirective",
+    "OMPDistributeSimdDirective": "OMPLoopDirective",
+    "OMPExecutableDirective": "Stmt",
+    "OMPFlushDirective": "OMPExecutableDirective",
+    "OMPForDirective": "OMPLoopDirective",
+    "OMPForSimdDirective": "OMPLoopDirective",
+    "OMPGenericLoopDirective": "OMPLoopDirective",
+    "OMPInteropDirective": "OMPExecutableDirective",
+    "OMPIteratorExpr": "Expr",
+    "OMPLoopBasedDirective": "OMPExecutableDirective",
+    "OMPLoopDirective": "OMPLoopBasedDirective",
+    "OMPLoopTransformationDirective": "OMPLoopBasedDirective",
+    "OMPMaskedDirective": "OMPExecutableDirective",
+    "OMPMasterDirective": "OMPExecutableDirective",
+    "OMPMasterTaskLoopDirective": "OMPLoopDirective",
+    "OMPMasterTaskLoopSimdDirective": "OMPLoopDirective",
+    "OMPMetaDirective": "OMPExecutableDirective",
+    "OMPOrderedDirective": "OMPExecutableDirective",
+    "OMPParallelDirective": "OMPExecutableDirective",
+    "OMPParallelForDirective": "OMPLoopDirective",
+    "OMPParallelForSimdDirective": "OMPLoopDirective",
+    "OMPParallelMasterDirective": "OMPExecutableDirective",
+    "OMPParallelMasterTaskLoopDirective": "OMPLoopDirective",
+    "OMPParallelMasterTaskLoopSimdDirective": "OMPLoopDirective",
+    "OMPParallelSectionsDirective": "OMPExecutableDirective",
+    "OMPScanDirective": "OMPExecutableDirective",
+    "OMPSectionDirective": "OMPExecutableDirective",
+    "OMPSectionsDirective": "OMPExecutableDirective",
+    "OMPSimdDirective": "OMPLoopDirective",
+    "OMPSingleDirective": "OMPExecutableDirective",
+    "OMPTargetDataDirective": "OMPExecutableDirective",
+    "OMPTargetDirective": "OMPExecutableDirective",
+    "OMPTargetEnterDataDirective": "OMPExecutableDirective",
+    "OMPTargetExitDataDirective": "OMPExecutableDirective",
+    "OMPTargetParallelDirective": "OMPExecutableDirective",
+    "OMPTargetParallelForDirective": "OMPLoopDirective",
+    "OMPTargetParallelForSimdDirective": "OMPLoopDirective",
+    "OMPTargetSimdDirective": "OMPLoopDirective",
+    "OMPTargetTeamsDirective": "OMPExecutableDirective",
+    "OMPTargetTeamsDistributeDirective": "OMPLoopDirective",
+    "OMPTargetTeamsDistributeParallelForDirective": "OMPLoopDirective",
+    "OMPTargetTeamsDistributeParallelForSimdDirective": "OMPLoopDirective",
+    "OMPTargetTeamsDistributeSimdDirective": "OMPLoopDirective",
+    "OMPTargetUpdateDirective": "OMPExecutableDirective",
+    "OMPTaskDirective": "OMPExecutableDirective",
+    "OMPTaskLoopDirective": "OMPLoopDirective",
+    "OMPTaskLoopSimdDirective": "OMPLoopDirective",
+    "OMPTaskgroupDirective": "OMPExecutableDirective",
+    "OMPTaskwaitDirective": "OMPExecutableDirective",
+    "OMPTaskyieldDirective": "OMPExecutableDirective",
+    "OMPTeamsDirective": "OMPExecutableDirective",
+    "OMPTeamsDistributeDirective": "OMPLoopDirective",
+    "OMPTeamsDistributeParallelForDirective": "OMPLoopDirective",
+    "OMPTeamsDistributeParallelForSimdDirective": "OMPLoopDirective",
+    "OMPTeamsDistributeSimdDirective": "OMPLoopDirective",
+    "OMPTileDirective": "OMPLoopTransformationDirective",
+    "OMPUnrollDirective": "OMPLoopTransformationDirective",
+    "ObjCArrayLiteral": "Expr",
+    "ObjCAtCatchStmt": "Stmt",
+    "ObjCAtDefsFieldDecl": "FieldDecl",
+    "ObjCAtFinallyStmt": "Stmt",
+    "ObjCAtSynchronizedStmt": "Stmt",
+    "ObjCAtThrowStmt": "Stmt",
+    "ObjCAtTryStmt": "Stmt",
+    "ObjCAutoreleasePoolStmt": "Stmt",
+    "ObjCAvailabilityCheckExpr": "Expr",
+    "ObjCBoolLiteralExpr": "Expr",
+    "ObjCBoxedExpr": "Expr",
+    "ObjCBridgedCastExpr": "ExplicitCastExpr",
+    "ObjCCategoryDecl": "ObjCContainerDecl",
+    "ObjCCategoryImplDecl": "ObjCImplDecl",
+    "ObjCCompatibleAliasDecl": "NamedDecl",
+    "ObjCContainerDecl": "NamedDecl",
+    "ObjCDictionaryLiteral": "Expr",
+    "ObjCEncodeExpr": "Expr",
+    "ObjCForCollectionStmt": "Stmt",
+    "ObjCImplDecl": "ObjCContainerDecl",
+    "ObjCImplementationDecl": "ObjCImplDecl",
+    "ObjCIndirectCopyRestoreExpr": "Expr",
+    "ObjCInterfaceDecl": "ObjCContainerDecl",
+    "ObjCInterfaceTypeLoc": "ConcreteTypeLoc<clang::ObjCObjectTypeLoc, clang::ObjCInterfaceTypeLoc, clang::ObjCInterfaceType, clang::ObjCInterfaceLocInfo>",
+    "ObjCIsaExpr": "Expr",
+    "ObjCIvarDecl": "FieldDecl",
+    "ObjCIvarRefExpr": "Expr",
+    "ObjCMessageExpr": "Expr",
+    "ObjCMethodDecl": "NamedDecl",
+    "ObjCObjectPointerTypeLoc": "PointerLikeTypeLoc<clang::ObjCObjectPointerTypeLoc, clang::ObjCObjectPointerType, clang::PointerLikeLocInfo>",
+    "ObjCObjectTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::ObjCObjectTypeLoc, clang::ObjCObjectType, clang::ObjCObjectTypeLocInfo>",
+    "ObjCPropertyDecl": "NamedDecl",
+    "ObjCPropertyImplDecl": "Decl",
+    "ObjCPropertyRefExpr": "Expr",
+    "ObjCProtocolDecl": "ObjCContainerDecl",
+    "ObjCProtocolExpr": "Expr",
+    "ObjCSelectorExpr": "Expr",
+    "ObjCStringLiteral": "Expr",
+    "ObjCSubscriptRefExpr": "Expr",
+    "ObjCTypeParamDecl": "TypedefNameDecl",
+    "ObjCTypeParamTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::ObjCTypeParamTypeLoc, clang::ObjCTypeParamType, clang::ObjCTypeParamTypeLocInfo>",
+    "OffsetOfExpr": "Expr",
+    "OpaqueValueExpr": "Expr",
+    "OverloadExpr": "Expr",
+    "PackExpansionExpr": "Expr",
+    "PackExpansionTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::PackExpansionTypeLoc, clang::PackExpansionType, clang::PackExpansionTypeLocInfo>",
+    "ParenExpr": "Expr",
+    "ParenListExpr": "Expr",
+    "ParenTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::ParenTypeLoc, clang::ParenType, clang::ParenLocInfo>",
+    "ParmVarDecl": "VarDecl",
+    "PipeTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::PipeTypeLoc, clang::PipeType, clang::PipeTypeLocInfo>",
+    "PointerTypeLoc": "PointerLikeTypeLoc<clang::PointerTypeLoc, clang::PointerType, clang::PointerLikeLocInfo>",
+    "PragmaCommentDecl": "Decl",
+    "PragmaDetectMismatchDecl": "Decl",
+    "PredefinedExpr": "Expr",
+    "PseudoObjectExpr": "Expr",
+    "QualifiedTypeLoc": "TypeLoc",
+    "RValueReferenceTypeLoc": "InheritingConcreteTypeLoc<clang::ReferenceTypeLoc, clang::RValueReferenceTypeLoc, clang::RValueReferenceType>",
+    "RecordDecl": "TagDecl",
+    "RecordTypeLoc": "InheritingConcreteTypeLoc<clang::TagTypeLoc, clang::RecordTypeLoc, clang::RecordType>",
+    "RecoveryExpr": "Expr",
+    "RedeclarableTemplateDecl": "TemplateDecl",
+    "ReferenceTypeLoc": "PointerLikeTypeLoc<clang::ReferenceTypeLoc, clang::ReferenceType, clang::PointerLikeLocInfo>",
+    "RequiresExpr": "Expr",
+    "RequiresExprBodyDecl": "Decl",
+    "ReturnStmt": "Stmt",
+    "SEHExceptStmt": "Stmt",
+    "SEHFinallyStmt": "Stmt",
+    "SEHLeaveStmt": "Stmt",
+    "SEHTryStmt": "Stmt",
+    "SYCLUniqueStableNameExpr": "Expr",
+    "ShuffleVectorExpr": "Expr",
+    "SizeOfPackExpr": "Expr",
+    "SourceLocExpr": "Expr",
+    "StaticAssertDecl": "Decl",
+    "StmtExpr": "Expr",
+    "StringLiteral": "Expr",
+    "SubstNonTypeTemplateParmExpr": "Expr",
+    "SubstNonTypeTemplateParmPackExpr": "Expr",
+    "SubstTemplateTypeParmPackTypeLoc": "InheritingConcreteTypeLoc<clang::TypeSpecTypeLoc, clang::SubstTemplateTypeParmPackTypeLoc, clang::SubstTemplateTypeParmPackType>",
+    "SubstTemplateTypeParmTypeLoc": "InheritingConcreteTypeLoc<clang::TypeSpecTypeLoc, clang::SubstTemplateTypeParmTypeLoc, clang::SubstTemplateTypeParmType>",
+    "SwitchCase": "Stmt",
+    "SwitchStmt": "Stmt",
+    "TagDecl": "TypeDecl",
+    "TagTypeLoc": "InheritingConcreteTypeLoc<clang::TypeSpecTypeLoc, clang::TagTypeLoc, clang::TagType>",
+    "TemplateDecl": "NamedDecl",
+    "TemplateParamObjectDecl": "ValueDecl",
+    "TemplateSpecializationTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::TemplateSpecializationTypeLoc, clang::TemplateSpecializationType, clang::TemplateSpecializationLocInfo>",
+    "TemplateTemplateParmDecl": "TemplateDecl",
+    "TemplateTypeParmDecl": "TypeDecl",
+    "TemplateTypeParmTypeLoc": "InheritingConcreteTypeLoc<clang::TypeSpecTypeLoc, clang::TemplateTypeParmTypeLoc, clang::TemplateTypeParmType>",
+    "TranslationUnitDecl": "Decl",
+    "TypeAliasDecl": "TypedefNameDecl",
+    "TypeAliasTemplateDecl": "RedeclarableTemplateDecl",
+    "TypeDecl": "NamedDecl",
+    "TypeOfExprTypeLoc": "TypeofLikeTypeLoc<clang::TypeOfExprTypeLoc, clang::TypeOfExprType, clang::TypeOfExprTypeLocInfo>",
+    "TypeOfTypeLoc": "TypeofLikeTypeLoc<clang::TypeOfTypeLoc, clang::TypeOfType, clang::TypeOfTypeLocInfo>",
+    "TypeSpecTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::TypeSpecTypeLoc, clang::Type, clang::TypeSpecLocInfo>",
+    "TypeTraitExpr": "Expr",
+    "TypedefDecl": "TypedefNameDecl",
+    "TypedefNameDecl": "TypeDecl",
+    "TypedefTypeLoc": "InheritingConcreteTypeLoc<clang::TypeSpecTypeLoc, clang::TypedefTypeLoc, clang::TypedefType>",
+    "TypoExpr": "Expr",
+    "UnaryExprOrTypeTraitExpr": "Expr",
+    "UnaryOperator": "Expr",
+    "UnaryTransformTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::UnaryTransformTypeLoc, clang::UnaryTransformType, clang::UnaryTransformTypeLocInfo>",
+    "UnqualTypeLoc": "TypeLoc",
+    "UnresolvedLookupExpr": "OverloadExpr",
+    "UnresolvedMemberExpr": "OverloadExpr",
+    "UnresolvedUsingIfExistsDecl": "NamedDecl",
+    "UnresolvedUsingTypeLoc": "InheritingConcreteTypeLoc<clang::TypeSpecTypeLoc, clang::UnresolvedUsingTypeLoc, clang::UnresolvedUsingType>",
+    "UnresolvedUsingTypenameDecl": "TypeDecl",
+    "UnresolvedUsingValueDecl": "ValueDecl",
+    "UserDefinedLiteral": "CallExpr",
+    "UsingDecl": "BaseUsingDecl",
+    "UsingDirectiveDecl": "NamedDecl",
+    "UsingEnumDecl": "BaseUsingDecl",
+    "UsingPackDecl": "NamedDecl",
+    "UsingShadowDecl": "NamedDecl",
+    "UsingTypeLoc": "InheritingConcreteTypeLoc<clang::TypeSpecTypeLoc, clang::UsingTypeLoc, clang::UsingType>",
+    "VAArgExpr": "Expr",
+    "ValueDecl": "NamedDecl",
+    "ValueStmt": "Stmt",
+    "VarDecl": "DeclaratorDecl",
+    "VarTemplateDecl": "RedeclarableTemplateDecl",
+    "VarTemplatePartialSpecializationDecl": "VarTemplateSpecializationDecl",
+    "VarTemplateSpecializationDecl": "VarDecl",
+    "VariableArrayTypeLoc": "InheritingConcreteTypeLoc<clang::ArrayTypeLoc, clang::VariableArrayTypeLoc, clang::VariableArrayType>",
+    "VectorTypeLoc": "ConcreteTypeLoc<clang::UnqualTypeLoc, clang::VectorTypeLoc, clang::VectorType, clang::VectorTypeLocInfo>",
+    "WhileStmt": "Stmt"
+  },
+  "classesInClade": {
+    "CXXBaseSpecifier": [
+      "CXXBaseSpecifier"
+    ],
+    "CXXCtorInitializer": [
+      "CXXCtorInitializer"
+    ],
+    "Decl": [
+      "Decl",
+      "TranslationUnitDecl",
+      "PragmaCommentDecl",
+      "PragmaDetectMismatchDecl",
+      "ExternCContextDecl",
+      "NamedDecl",
+      "LabelDecl",
+      "NamespaceDecl",
+      "ValueDecl",
+      "DeclaratorDecl",
+      "VarDecl",
+      "ImplicitParamDecl",
+      "ParmVarDecl",
+      "FunctionDecl",
+      "FieldDecl",
+      "EnumConstantDecl",
+      "IndirectFieldDecl",
+      "TypeDecl",
+      "TypedefNameDecl",
+      "TypedefDecl",
+      "TypeAliasDecl",
+      "TagDecl",
+      "EnumDecl",
+      "RecordDecl",
+      "FileScopeAsmDecl",
+      "BlockDecl",
+      "CapturedDecl",
+      "ImportDecl",
+      "ExportDecl",
+      "EmptyDecl",
+      "AccessSpecDecl",
+      "CXXRecordDecl",
+      "CXXDeductionGuideDecl",
+      "RequiresExprBodyDecl",
+      "CXXMethodDecl",
+      "CXXConstructorDecl",
+      "CXXDestructorDecl",
+      "CXXConversionDecl",
+      "LinkageSpecDecl",
+      "UsingDirectiveDecl",
+      "NamespaceAliasDecl",
+      "LifetimeExtendedTemporaryDecl",
+      "UsingShadowDecl",
+      "BaseUsingDecl",
+      "UsingDecl",
+      "ConstructorUsingShadowDecl",
+      "UsingEnumDecl",
+      "UsingPackDecl",
+      "UnresolvedUsingValueDecl",
+      "UnresolvedUsingTypenameDecl",
+      "UnresolvedUsingIfExistsDecl",
+      "StaticAssertDecl",
+      "BindingDecl",
+      "DecompositionDecl",
+      "MSPropertyDecl",
+      "MSGuidDecl",
+      "ObjCMethodDecl",
+      "ObjCTypeParamDecl",
+      "ObjCPropertyDecl",
+      "ObjCContainerDecl",
+      "ObjCInterfaceDecl",
+      "ObjCIvarDecl",
+      "ObjCAtDefsFieldDecl",
+      "ObjCProtocolDecl",
+      "ObjCCategoryDecl",
+      "ObjCImplDecl",
+      "ObjCCategoryImplDecl",
+      "ObjCImplementationDecl",
+      "ObjCCompatibleAliasDecl",
+      "ObjCPropertyImplDecl",
+      "TemplateDecl",
+      "RedeclarableTemplateDecl",
+      "FunctionTemplateDecl",
+      "TemplateTypeParmDecl",
+      "NonTypeTemplateParmDecl",
+      "TemplateTemplateParmDecl",
+      "BuiltinTemplateDecl",
+      "ClassTemplateSpecializationDecl",
+      "ClassTemplatePartialSpecializationDecl",
+      "ClassTemplateDecl",
+      "FriendTemplateDecl",
+      "TypeAliasTemplateDecl",
+      "ClassScopeFunctionSpecializationDecl",
+      "VarTemplateSpecializationDecl",
+      "VarTemplatePartialSpecializationDecl",
+      "VarTemplateDecl",
+      "ConceptDecl",
+      "TemplateParamObjectDecl"
+    ],
+    "DeclarationNameInfo": [
+      "DeclarationNameInfo"
+    ],
+    "NestedNameSpecifierLoc": [
+      "NestedNameSpecifierLoc"
+    ],
+    "Stmt": [
+      "Stmt",
+      "DeclStmt",
+      "NullStmt",
+      "CompoundStmt",
+      "SwitchCase",
+      "CaseStmt",
+      "DefaultStmt",
+      "ValueStmt",
+      "LabelStmt",
+      "AttributedStmt",
+      "IfStmt",
+      "SwitchStmt",
+      "WhileStmt",
+      "DoStmt",
+      "ForStmt",
+      "GotoStmt",
+      "IndirectGotoStmt",
+      "ContinueStmt",
+      "BreakStmt",
+      "ReturnStmt",
+      "AsmStmt",
+      "GCCAsmStmt",
+      "MSAsmStmt",
+      "SEHExceptStmt",
+      "SEHFinallyStmt",
+      "SEHTryStmt",
+      "SEHLeaveStmt",
+      "CapturedStmt",
+      "Expr",
+      "FullExpr",
+      "ConstantExpr",
+      "OpaqueValueExpr",
+      "DeclRefExpr",
+      "IntegerLiteral",
+      "FixedPointLiteral",
+      "CharacterLiteral",
+      "FloatingLiteral",
+      "ImaginaryLiteral",
+      "StringLiteral",
+      "PredefinedExpr",
+      "SYCLUniqueStableNameExpr",
+      "ParenExpr",
+      "UnaryOperator",
+      "OffsetOfExpr",
+      "UnaryExprOrTypeTraitExpr",
+      "ArraySubscriptExpr",
+      "MatrixSubscriptExpr",
+      "CallExpr",
+      "MemberExpr",
+      "CompoundLiteralExpr",
+      "CastExpr",
+      "ImplicitCastExpr",
+      "ExplicitCastExpr",
+      "CStyleCastExpr",
+      "BinaryOperator",
+      "CompoundAssignOperator",
+      "AbstractConditionalOperator",
+      "ConditionalOperator",
+      "BinaryConditionalOperator",
+      "AddrLabelExpr",
+      "StmtExpr",
+      "ShuffleVectorExpr",
+      "ConvertVectorExpr",
+      "ChooseExpr",
+      "GNUNullExpr",
+      "VAArgExpr",
+      "SourceLocExpr",
+      "InitListExpr",
+      "DesignatedInitExpr",
+      "NoInitExpr",
+      "DesignatedInitUpdateExpr",
+      "ArrayInitLoopExpr",
+      "ArrayInitIndexExpr",
+      "ImplicitValueInitExpr",
+      "ParenListExpr",
+      "GenericSelectionExpr",
+      "ExtVectorElementExpr",
+      "BlockExpr",
+      "AsTypeExpr",
+      "PseudoObjectExpr",
+      "AtomicExpr",
+      "TypoExpr",
+      "RecoveryExpr",
+      "ObjCStringLiteral",
+      "ObjCBoolLiteralExpr",
+      "ObjCBoxedExpr",
+      "ObjCArrayLiteral",
+      "ObjCDictionaryLiteral",
+      "ObjCEncodeExpr",
+      "ObjCSelectorExpr",
+      "ObjCProtocolExpr",
+      "ObjCIvarRefExpr",
+      "ObjCPropertyRefExpr",
+      "ObjCSubscriptRefExpr",
+      "ObjCMessageExpr",
+      "ObjCIsaExpr",
+      "ObjCIndirectCopyRestoreExpr",
+      "ObjCBridgedCastExpr",
+      "ObjCAvailabilityCheckExpr",
+      "ConceptSpecializationExpr",
+      "RequiresExpr",
+      "CXXCatchStmt",
+      "CXXTryStmt",
+      "CXXForRangeStmt",
+      "MSDependentExistsStmt",
+      "CoroutineBodyStmt",
+      "CoreturnStmt",
+      "CXXOperatorCallExpr",
+      "CXXMemberCallExpr",
+      "CUDAKernelCallExpr",
+      "CXXRewrittenBinaryOperator",
+      "CXXNamedCastExpr",
+      "CXXStaticCastExpr",
+      "CXXDynamicCastExpr",
+      "CXXReinterpretCastExpr",
+      "CXXConstCastExpr",
+      "CXXAddrspaceCastExpr",
+      "UserDefinedLiteral",
+      "CXXBoolLiteralExpr",
+      "CXXNullPtrLiteralExpr",
+      "CXXStdInitializerListExpr",
+      "CXXTypeidExpr",
+      "MSPropertyRefExpr",
+      "MSPropertySubscriptExpr",
+      "CXXUuidofExpr",
+      "CXXThisExpr",
+      "CXXThrowExpr",
+      "CXXDefaultArgExpr",
+      "CXXDefaultInitExpr",
+      "CXXBindTemporaryExpr",
+      "CXXConstructExpr",
+      "CXXInheritedCtorInitExpr",
+      "CXXFunctionalCastExpr",
+      "CXXTemporaryObjectExpr",
+      "LambdaExpr",
+      "CXXScalarValueInitExpr",
+      "CXXNewExpr",
+      "CXXDeleteExpr",
+      "CXXPseudoDestructorExpr",
+      "TypeTraitExpr",
+      "ArrayTypeTraitExpr",
+      "ExpressionTraitExpr",
+      "OverloadExpr",
+      "UnresolvedLookupExpr",
+      "DependentScopeDeclRefExpr",
+      "ExprWithCleanups",
+      "CXXUnresolvedConstructExpr",
+      "CXXDependentScopeMemberExpr",
+      "UnresolvedMemberExpr",
+      "CXXNoexceptExpr",
+      "PackExpansionExpr",
+      "SizeOfPackExpr",
+      "SubstNonTypeTemplateParmExpr",
+      "SubstNonTypeTemplateParmPackExpr",
+      "FunctionParmPackExpr",
+      "MaterializeTemporaryExpr",
+      "CXXFoldExpr",
+      "CoroutineSuspendExpr",
+      "CoawaitExpr",
+      "DependentCoawaitExpr",
+      "CoyieldExpr",
+      "BuiltinBitCastExpr",
+      "OMPArraySectionExpr",
+      "OMPArrayShapingExpr",
+      "OMPIteratorExpr",
+      "ObjCForCollectionStmt",
+      "ObjCAtCatchStmt",
+      "ObjCAtFinallyStmt",
+      "ObjCAtTryStmt",
+      "ObjCAtSynchronizedStmt",
+      "ObjCAtThrowStmt",
+      "ObjCAutoreleasePoolStmt",
+      "OMPCanonicalLoop",
+      "OMPExecutableDirective",
+      "OMPParallelDirective",
+      "OMPLoopBasedDirective",
+      "OMPLoopTransformationDirective",
+      "OMPLoopDirective",
+      "OMPSimdDirective",
+      "OMPForDirective",
+      "OMPForSimdDirective",
+      "OMPSectionsDirective",
+      "OMPSectionDirective",
+      "OMPSingleDirective",
+      "OMPMasterDirective",
+      "OMPCriticalDirective",
+      "OMPParallelForDirective",
+      "OMPParallelForSimdDirective",
+      "OMPParallelMasterDirective",
+      "OMPParallelSectionsDirective",
+      "OMPTaskDirective",
+      "OMPTaskyieldDirective",
+      "OMPBarrierDirective",
+      "OMPTaskwaitDirective",
+      "OMPTaskgroupDirective",
+      "OMPFlushDirective",
+      "OMPDepobjDirective",
+      "OMPOrderedDirective",
+      "OMPAtomicDirective",
+      "OMPTargetDirective",
+      "OMPTargetDataDirective",
+      "OMPTargetEnterDataDirective",
+      "OMPTargetExitDataDirective",
+      "OMPTargetParallelDirective",
+      "OMPTargetParallelForDirective",
+      "OMPTeamsDirective",
+      "OMPCancellationPointDirective",
+      "OMPCancelDirective",
+      "OMPTaskLoopDirective",
+      "OMPTaskLoopSimdDirective",
+      "OMPMasterTaskLoopDirective",
+      "OMPMasterTaskLoopSimdDirective",
+      "OMPParallelMasterTaskLoopDirective",
+      "OMPParallelMasterTaskLoopSimdDirective",
+      "OMPDistributeDirective",
+      "OMPTargetUpdateDirective",
+      "OMPDistributeParallelForDirective",
+      "OMPDistributeParallelForSimdDirective",
+      "OMPDistributeSimdDirective",
+      "OMPTargetParallelForSimdDirective",
+      "OMPTargetSimdDirective",
+      "OMPTeamsDistributeDirective",
+      "OMPTeamsDistributeSimdDirective",
+      "OMPTeamsDistributeParallelForSimdDirective",
+      "OMPTeamsDistributeParallelForDirective",
+      "OMPTargetTeamsDirective",
+      "OMPTargetTeamsDistributeDirective",
+      "OMPTargetTeamsDistributeParallelForDirective",
+      "OMPTargetTeamsDistributeParallelForSimdDirective",
+      "OMPTargetTeamsDistributeSimdDirective",
+      "OMPTileDirective",
+      "OMPUnrollDirective",
+      "OMPScanDirective",
+      "OMPInteropDirective",
+      "OMPDispatchDirective",
+      "OMPMaskedDirective",
+      "OMPMetaDirective",
+      "OMPGenericLoopDirective"
+    ],
+    "TemplateArgumentLoc": [
+      "TemplateArgumentLoc"
+    ],
+    "TypeLoc": [
+      "TypeLoc",
+      "UnqualTypeLoc",
+      "QualifiedTypeLoc",
+      "TypeSpecTypeLoc",
+      "BuiltinTypeLoc",
+      "UsingTypeLoc",
+      "TypedefTypeLoc",
+      "InjectedClassNameTypeLoc",
+      "UnresolvedUsingTypeLoc",
+      "TagTypeLoc",
+      "RecordTypeLoc",
+      "EnumTypeLoc",
+      "TemplateTypeParmTypeLoc",
+      "ObjCTypeParamTypeLoc",
+      "SubstTemplateTypeParmTypeLoc",
+      "SubstTemplateTypeParmPackTypeLoc",
+      "AttributedTypeLoc",
+      "ObjCObjectTypeLoc",
+      "ObjCInterfaceTypeLoc",
+      "MacroQualifiedTypeLoc",
+      "ParenTypeLoc",
+      "AdjustedTypeLoc",
+      "DecayedTypeLoc",
+      "PointerLikeTypeLoc",
+      "PointerTypeLoc",
+      "BlockPointerTypeLoc",
+      "MemberPointerTypeLoc",
+      "ObjCObjectPointerTypeLoc",
+      "ReferenceTypeLoc",
+      "LValueReferenceTypeLoc",
+      "RValueReferenceTypeLoc",
+      "FunctionTypeLoc",
+      "FunctionProtoTypeLoc",
+      "FunctionNoProtoTypeLoc",
+      "ArrayTypeLoc",
+      "ConstantArrayTypeLoc",
+      "IncompleteArrayTypeLoc",
+      "DependentSizedArrayTypeLoc",
+      "VariableArrayTypeLoc",
+      "TemplateSpecializationTypeLoc",
+      "DependentAddressSpaceTypeLoc",
+      "VectorTypeLoc",
+      "DependentVectorTypeLoc",
+      "ExtVectorTypeLoc",
+      "DependentSizedExtVectorTypeLoc",
+      "MatrixTypeLoc",
+      "ConstantMatrixTypeLoc",
+      "DependentSizedMatrixTypeLoc",
+      "ComplexTypeLoc",
+      "TypeofLikeTypeLoc",
+      "TypeOfExprTypeLoc",
+      "TypeOfTypeLoc",
+      "DecltypeTypeLoc",
+      "UnaryTransformTypeLoc",
+      "DeducedTypeLoc",
+      "AutoTypeLoc",
+      "DeducedTemplateSpecializationTypeLoc",
+      "ElaboratedTypeLoc",
+      "DependentNameTypeLoc",
+      "DependentTemplateSpecializationTypeLoc",
+      "PackExpansionTypeLoc",
+      "AtomicTypeLoc",
+      "PipeTypeLoc",
+      "BitIntTypeLoc",
+      "DependentBitIntTypeLoc"
+    ]
+  }
+}
