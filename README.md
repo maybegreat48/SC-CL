@@ -9,7 +9,7 @@ Updated SC-CL to use LLVM v14.0.0, it actually builds now (with Visual Studio 20
 You can load unencrypted YSC files using [External](https://github.com/maybegreat48/External). Do note that the --no-rsc7 flag must be passed to the compiler.
 See [SC-CL Sample Project](https://github.com/NativeFunction/SC-CL-SampleProject) for header files and an example project
 
-Please open a issue if you are facing build failures
+Please open a issue if you are facing build failures. Do not open issues related to feature requests as I am not even remotely capable of adding new features to SC-CL, we have to wait for the original authors or someone with enough experience with LLVM's codebase for that
 
 SC-CL
 ---------------------------------
