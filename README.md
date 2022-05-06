@@ -1,11 +1,15 @@
 # SC-CL (Modified)
 
-# WARNING: THIS IS NOT MY PROJECT! Original can be found [here](https://github.com/NativeFunction/SC-CL). See contributors.txt for all the people that made this excellent compiler
+# WARNING: THIS IS NOT MY PROJECT! Original can be found [here](https://github.com/NativeFunction/SC-CL). 
+
+# See contributors.txt for all the people that made this excellent compiler
 
 Updated SC-CL to use LLVM v14.0.0, it actually builds now (with Visual Studio 2022) and it works (had to remove XCompress so GTAIV and RDR might not work anymore). The block that prevented compilation to GTAV PC has been removed.
 
 You can load unencrypted YSC files using [External](https://github.com/maybegreat48/External). Do note that the --no-rsc7 flag must be passed to the compiler.
 See [SC-CL Sample Project](https://github.com/NativeFunction/SC-CL-SampleProject) for header files and an example project
+
+Please open a issue if you are facing build failures
 
 SC-CL
 ---------------------------------
