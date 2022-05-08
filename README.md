@@ -33,10 +33,11 @@ How To Build
 ---------------------------------
 1. Clone this repo
 2. Open llvm-14.0.0.src and run `cmake .`
-3. Open llvm-14.0.0.src/LLVM.sln or equivalent
+3. Open llvm-14.0.0.src/LLVM.sln or equivalent in Visual Studio 2022
 4. Change configuration from "Debug" to "MinSizeRel"
-5. Go to Clang executables in solution explorer
+5. Open the Clang executables folder in the solution explorer
 6. Right click on SC-CL and click build
+7. You will find SC-CL.exe in `llvm-14.0.0.src\MinSizeRel\bin`
   
 Usage
 ---------------------------------
